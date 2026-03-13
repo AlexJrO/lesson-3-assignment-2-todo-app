@@ -1,5 +1,7 @@
-# lesson-3-assignment-2-todo-app[
-<!DOCTYPE html>
+todo-app
+│
+├── index.html
+│<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -24,7 +26,9 @@
 
 </body>
 </html>
-body{
+├── css
+│   └── style.css
+│body{
 font-family: Arial;
 background:#f5f5f5;
 text-align:center;
@@ -55,7 +59,9 @@ justify-content:space-between;
 text-decoration:line-through;
 color:gray;
 }
-// selecting elements from the HTML page
+├── js
+│   └── script.js
+│// selecting elements from the HTML page
 const input = document.getElementById("taskInput");
 const button = document.getElementById("addBtn");
 const list = document.getElementById("taskList");
